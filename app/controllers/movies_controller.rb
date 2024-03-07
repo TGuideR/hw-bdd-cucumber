@@ -1,3 +1,4 @@
+#Controller Movie
 class MoviesController < ApplicationController
   before_action :force_index_redirect, only: [:index]
 
